@@ -7,7 +7,8 @@ export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <h1>
-        The weather in <span className="city">{props.data.city}</span> today:
+        The weather in <span className="city">{props.data.location}</span>{" "}
+        today:
       </h1>
       <hr />
       <WeatherIcon code={props.data.icon} alt={props.data.description} />

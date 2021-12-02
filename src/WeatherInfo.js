@@ -11,7 +11,11 @@ export default function WeatherInfo(props) {
         today:
       </h1>
       <hr />
-      <WeatherIcon code={props.data.icon} alt={props.data.description} />
+      <WeatherIcon
+        code={props.data.icon}
+        alt={props.data.description}
+        size={50}
+      />
       <div className="row">
         <div className="col-3">
           <ul>

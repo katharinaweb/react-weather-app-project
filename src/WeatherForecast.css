@@ -1,0 +1,24 @@
+.WeatherForecast {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.WeatherForecast .forecast-day {
+  margin-bottom: -10px;
+}
+
+.WeatherForecast .forecast-temperature {
+  margin-top: 5px;
+
+  font-weight: normal;
+}
+
+.WeatherForecast .forecast-temperature-min {
+  margin: 2px;
+}
+
+.WeatherForecast .forecast-temperature-max {
+  margin: 2px;
+  font-weight: bold;
+}
